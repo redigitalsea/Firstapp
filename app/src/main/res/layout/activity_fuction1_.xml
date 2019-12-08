@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你是什么？"
+        android:id="@+id/f1_tv1"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        />
+
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/f1_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/f1_rg1"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1_rb1"
+            android:text="我是猪"
+            android:checked="true"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1_rb2"
+            android:text="我是人"
+            android:textSize="25sp"
+            android:padding="10dp"
+            />
+
+    </RadioGroup>
+
+</RelativeLayout>
