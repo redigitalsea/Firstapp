@@ -1,0 +1,4 @@
+2dcd\r\n
+ts-officedocument.wordprocessingml.document\r\n
+\r\n
+PK\n
